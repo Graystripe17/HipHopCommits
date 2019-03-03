@@ -1,11 +1,11 @@
-Commitment is a small Tornado application that generates random commit messages.
+This is a joke, forked from ngerikines/commitment
 
-    http://whatthecommit.com/
+It's for hip hop heads. If you would like to contribute, you can select any artist or create a new one, just please make sure there are no expletives.
 
-Commitment also provides http://whatthecommit.com/index.txt which provides plain text output.  
-Some interesting usage for that can be:
+The old project used Tornado as a backend on a heroku box. There really is no need for a backend since it's all static, so I'm using JS on Github pages.
+
 ```
-git config --global alias.yolo '!git commit -m "$(curl -s whatthecommit.com/index.txt)"'
+git config --global alias.yolo '!git commit -m "$(curl -s https://graystripe17.github.io/HipHopCommits)"'
 ```
 
 # License
